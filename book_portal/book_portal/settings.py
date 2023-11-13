@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-qa4fg#o#%l#gt^@!w+(cphl6t)qzj5movfe(bn(^_#bge%9iyb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7ac9f4b97a6ef7ac5655d25df77f8b404c6005dd
 ALLOWED_HOSTS = []
 
 
@@ -39,6 +42,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'user_profile',
+>>>>>>> 3bd036d (feat : Add profile model to user)
+=======
+    'user_profile',
+>>>>>>> 3bd036d6c9eda4245c8140eb5533fac7964d2c31
+>>>>>>> 7ac9f4b97a6ef7ac5655d25df77f8b404c6005dd
 ]
 
 MIDDLEWARE = [
@@ -56,9 +70,13 @@ ROOT_URLCONF = 'book_portal.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [
             os.path.join(BASE_DIR, 'templates')
         ],
+=======
+        'DIRS': [],
+>>>>>>> 7ac9f4b97a6ef7ac5655d25df77f8b404c6005dd
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,13 +138,31 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+<<<<<<< HEAD
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
+=======
+>>>>>>> 7ac9f4b97a6ef7ac5655d25df77f8b404c6005dd
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 
 MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
+>>>>>>> 3bd036d (feat : Add profile model to user)
+=======
+
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
+>>>>>>> 3bd036d6c9eda4245c8140eb5533fac7964d2c31
+>>>>>>> 7ac9f4b97a6ef7ac5655d25df77f8b404c6005dd
