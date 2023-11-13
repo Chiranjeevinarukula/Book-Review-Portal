@@ -37,6 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'user_profile',
+>>>>>>> 3bd036d (feat : Add profile model to user)
+=======
+    'user_profile',
+>>>>>>> 3bd036d6c9eda4245c8140eb5533fac7964d2c31
 ]
 
 MIDDLEWARE = [
@@ -121,3 +129,15 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
+>>>>>>> 3bd036d (feat : Add profile model to user)
+=======
+
+MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"
+>>>>>>> 3bd036d6c9eda4245c8140eb5533fac7964d2c31

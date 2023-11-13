@@ -16,7 +16,29 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from django.conf.urls.static import static
+from django.conf import settings
+
+>>>>>>> 3bd036d (feat : Add profile model to user)
+=======
+from django.conf.urls.static import static
+from django.conf import settings
+
+>>>>>>> 3bd036d6c9eda4245c8140eb5533fac7964d2c31
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> 3bd036d (feat : Add profile model to user)
+=======
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> 3bd036d6c9eda4245c8140eb5533fac7964d2c31
